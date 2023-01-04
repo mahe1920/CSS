@@ -1,21 +1,97 @@
-.buttons{
-    margin: 3rem;
-}
-a{
-    background: #689f3f;
-    text-decoration: none;
-    padding: 1.2rem 1.5rem;
-    color: black;
-    text-transform: uppercase;
-    cursor: pointer;
+body{
+    font-family: Verdana;
+    background: whitesmoke;
 }
 
-#one{
-    border: 0.2rem solid black;
+.parent{
+    background: whitesmoke;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100vw;
+    margin-top: 5px;
 }
-#two{
-    outline-width: 0.2rem;
-    outline-style: solid;
-    outline-color: black;
-    outline-offset: 10px;
+
+.aboutpage{
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: seashell;
 }
+.aboutchild{
+    margin: 20px;
+    font-size: 20px;
+}
+.contactpage{
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: seashell;
+}
+
+.box-1, .box-2, .box-3, .box-4{
+    width: 33vw;
+    height: 30vh;
+    color: black;
+    background: azure;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-family: Helvetica;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.box-1:hover{
+    background-color: burlywood;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.box-2:hover{
+    background-color: burlywood;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.box-3:hover{
+    background-color: burlywood;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+h1{
+    font-size: 60px;
+}
+#brand{
+    text-align: center;
+    font-size: large;
+}
+#top{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 0.15em;
+  }
+  
+  li{
+    display: inline-block;
+  }
