@@ -1,6 +1,54 @@
+/*
 h1{
-    color: aquamarine;
+    font-size: 40px;
+    height: 300px;
+    width: 200px;
+    background: blue;
 }
-body{
-    background: lightgoldenrodyellow;
+
+.outer{
+    width: 200px;
+    height: 200px;
+    background: blue;
+}
+// percentage depends on parent class
+.inner{
+    width: 100%;
+    height: 50%;
+    background: red;
+}
+
+*{
+    margin: 0;
+}
+.navbar{
+    background: blue;
+    height: 100px;
+    color: white;
+    font-size: 3rem;
+}
+
+.banner{
+    background: red;
+    min-height: calc(100vh - 100px);
+}
+*/
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+.subhead{
+    text-decoration: underline;
+    line-height: 2rem;
+}
+.one{
+    line-height: 0.98em;
+    
+}
+
+.two{
+    letter-spacing: 5px;
+}
+.three{
+    word-spacing: 20px;
 }
